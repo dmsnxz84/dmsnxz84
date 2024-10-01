@@ -1,0 +1,101 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNhEUfbZbqy6KrnMZp7Rnku",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/dmsnxz84/dmsnxz84/blob/main/LISTA%20de%20compras\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "lista = [\"pao\", \"queijo\", \"batata\"]"
+      ],
+      "metadata": {
+        "id": "0ytWNi4jm1wD"
+      },
+      "execution_count": 3,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "precos = {\n",
+        "\"pao\":2,\n",
+        "\"queijo\":5,\n",
+        "\"batata\":8}"
+      ],
+      "metadata": {
+        "id": "jNJtH5AnepMI"
+      },
+      "execution_count": 4,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "total = 0\n"
+      ],
+      "metadata": {
+        "id": "rc03zhS377yl"
+      },
+      "execution_count": 5,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for iten in lista:\n",
+        "  total+=precos[iten]"
+      ],
+      "metadata": {
+        "id": "vyIxSQspBt7I"
+      },
+      "execution_count": 6,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(total)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-337VswU-6v2",
+        "outputId": "567cb3f8-02d9-4877-e7e0-48900fb633c6"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "15\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
